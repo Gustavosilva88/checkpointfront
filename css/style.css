@@ -1,0 +1,417 @@
+*{    
+    margin: 0;
+    width: 425px;
+    box-sizing: border-box;      
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@900&display=swap");
+
+
+header{
+
+position: absolute;
+width: 425px;
+height: 554px;
+left: 0px;
+top: 0px;
+    background-image: url(/img/praia\ grande.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.Home{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #000000;
+width: 197px;
+height: 82px;
+left: 107px;
+top: 200px;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+background: #C4C4C480;
+border: 2px solid #000000;
+border-radius: 36px;
+text-align: center;
+align-items: center;
+font-family: "fraunces",sans-serif;
+}
+.titulo{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+width: 340px;
+height: 140px;
+left: 40px;
+top: 36px;
+text-align: center;
+background-color: #C4C4C480;
+border: 2px solid #000000;
+border-radius: 36px;
+font-weight: 400;
+font-size: 64px;
+line-height: 75px;
+
+}
+
+.curi{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+width: 197px;
+height: 82px;
+left: 110px;
+top: 306px;
+text-align: center;
+background: #C4C4C480;
+border: 2px solid #000000;
+border-radius: 36px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+
+}
+
+.tube{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;    
+width: 197px;
+height: 82px;
+left: 107px;
+top: 412px;
+background: #C4C4C480;
+border: 2px solid #000000;
+border-radius: 36px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+
+
+}
+
+body{
+    font-family: "fraunces", sans-serif; 
+    background-image: url(/img/fundo.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%  ;
+    background-attachment: fixed;
+    
+}
+
+
+
+main{
+   
+   display: flex;
+   flex-direction: column;
+   
+}
+.curiosidades{
+    position: absolute;
+    width: 338px;
+    height: 38px;
+    left: 36px;
+    top: 582px;
+    
+    font-family: 'Roboto';
+    font-style: inherit;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    text-align-last: justify; 
+}
+.curi01{
+    position: absolute;
+    display: flex;
+    align-items: center;
+width: 335px;
+height: 534px;
+margin-left: 43px;
+top: 651px;
+border-radius: 31px;
+margin-bottom: 37px;
+}
+
+.curi02{
+    position: absolute;
+    display: flex;
+    align-items: center;
+   
+    width: 335px;
+height: 534px;
+margin-left: 43px;
+top: 1222px;
+border-radius: 31px;
+margin-bottom: 37px;
+border-radius: 31px;
+margin-bottom: 37px;
+}
+
+.curi03{
+    position: absolute;
+    display: flex;
+    align-items: center;
+width: 335px;
+height: 534px;
+margin-left: 43px;
+top: 1793px;
+border-radius: 31px;
+margin-bottom: 37px;
+}
+
+.video{
+    position: absolute;
+    
+    width: 335px;
+    height: 534px;
+    left: 43px;
+    top: 2502px;
+    border-radius: 31px;
+
+}
+.titulo-video{
+    position: absolute;
+width: 92px;
+height: 42px;
+left: 43px;
+top: 2438px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+}
+
+.contato{
+    position: absolute;
+width: 217px;
+height: 75px;
+left: 43px;
+top: 33px;
+    font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 75px;
+}
+.linkedin{
+    position: absolute;
+    width: 141px;
+    height: 141px;
+    left: 135px;
+    top: 163px;
+    border-radius: 100%; 
+}
+.github{
+    position: absolute;
+    width: 141px;
+    height: 141px;
+    left: 135px;
+    top: 488px;  
+    border-radius: 100%;  
+}
+footer{
+    position: absolute;
+    width: 425px;
+    height: 795px;
+    left: 0px;
+    top: 3133px;
+    
+    background: #C4C4C480;
+}
+
+
+@media(min-width: 1280px){
+
+    *{    
+        margin: 0;
+        width: 100%;
+        box-sizing: border-box;      
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+       
+        width: 100%;
+        height: 213px;
+    }
+    .titulo {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+width: 340px;
+height: 140px;
+left: 122px;
+top: 36px;
+    }
+    .Home{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+width: 197px;
+height: 82px;
+left: 555px;
+top: 65px;
+    }
+    .curi{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+width: 197px;
+height: 82px;
+left: 779px;
+top: 65px;
+    }           
+    .tube{
+        position: absolute;
+width: 197px;
+height: 82px;   
+left: 1003px;
+top: 65px;
+    }
+    body{
+        background-size: 100% 100%;  
+          
+    }
+    .menu{
+        display: flex;
+        position: absolute;
+    }    
+    .banner{
+        position: absolute;
+        display: flex;
+width: 100%;
+height: 532px;
+left: 0px;
+top: 213px;
+opacity: .8;
+    }
+    .texto{
+        position: absolute;
+        display: flex;
+        width: 90%;
+height: 25%;
+left: 0px;
+top: 213px;
+margin: 20px;
+font-family: 'Times New Roman', Times, serif,sans-serif;
+font-size: 45px;
+color:aliceblue ;
+font-style: italic,oblique;
+        
+    }
+    .curiosidades{
+        position: absolute;
+        width: 380px;
+        height: 42px;
+        left: 123px;
+        top: 843px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 42px;
+        
+        color: #000000;
+    }
+   .curi01{
+    position: absolute;
+    width: 335px;
+    height: 534px;
+    left: 123px;
+    top: 922px;
+   }
+   .curi02{
+    position: absolute;
+    width: 335px;
+    height: 534px;
+    left: 494px;
+    top: 922px;    
+   }
+   .curi03{
+    position: absolute;
+    width: 335px;
+    height: 534px;
+    left: 865px;
+    top: 922px;
+   }
+   .titulo-video{
+    position: absolute;
+    width: 92px;
+    height: 42px;
+    left: 123px;
+    top: 1596px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    
+    color: #000000;
+   }
+   .video{
+    position: absolute;
+    width: 1077px;
+    height: 534px;
+    left: 123px;
+    top: 1675px;
+   }
+   .contato{
+    position: absolute;
+    width: 217px;
+    height: 75px;
+    left: 76px;
+    top: 33px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+   }
+   .linkedin{
+    position: absolute;
+    width: 141px;
+    height: 141px;
+    left: 378px;
+    top: 163px;
+  }
+   .github{
+    position: absolute;
+    width: 141px;
+    height: 141px;
+    left: 762px;
+    top: 163px;
+
+   }
+   footer{
+    position: absolute;
+    width: 1280px;
+    height: 414px;
+    left: 0px;
+    top: 2442px;
+   }
+}
