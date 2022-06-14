@@ -236,6 +236,10 @@ line-height: 75px;
     top: 163px;
     border-radius: 100%; 
 }
+.linkedin:hover{
+    transform: scale(1.2);
+}
+
 .github{
     position: absolute;
     width: 141px;
@@ -243,6 +247,9 @@ line-height: 75px;
     left: 135px;
     top: 488px;  
     border-radius: 100%;  
+}
+.github:hover{
+    transform: scale(1.2);
 }
 footer{
     position: absolute;
